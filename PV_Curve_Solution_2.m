@@ -1,0 +1,12 @@
+v1=0.8110;
+v2=0.1907;
+gamma=1.24;
+p1=0.9;
+T1 = 253;
+p2 = 7.2;
+v=v1:-0.01:v2;
+p=289*T1./v;
+plot(v,p);
+xlabel('V', 'FontSize', 20);
+ylabel('P', 'FontSize', 20);
+title('PV Graph', 'FontSize', 20);

@@ -1,0 +1,9 @@
+%% DFIELD file %%
+
+H.name = 'RC circuit';
+H.xname = 'V_c';
+H.tname = 't';
+H.der = '(A*cos(\omega*t) - V_c)/(R*C)';
+H.wind = [0  10  -5   5];
+H.pname = {'A','\omega','R','C'};
+H.pval = {'5','100','0.05','2'};
